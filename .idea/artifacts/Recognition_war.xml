@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Recognition:war">
+    <output-path>$PROJECT_DIR$/Recognition/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Recognition</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Recognition-1.0.0.war">
+      <element id="artifact" artifact-name="Recognition:war exploded" />
+    </root>
+  </artifact>
+</component>

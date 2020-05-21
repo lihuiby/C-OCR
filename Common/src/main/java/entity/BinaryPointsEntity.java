@@ -4,6 +4,7 @@ import org.opencv.core.Mat;
 
 import java.util.List;
 
+
 public class BinaryPointsEntity {
 
     private List<PointEntity> points;

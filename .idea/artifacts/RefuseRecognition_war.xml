@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RefuseRecognition:war">
+    <output-path>$PROJECT_DIR$/RefuseRecognition/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RefuseRecognition</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RefuseRecognition-1.0.0.war">
+      <element id="artifact" artifact-name="RefuseRecognition:war exploded" />
+    </root>
+  </artifact>
+</component>

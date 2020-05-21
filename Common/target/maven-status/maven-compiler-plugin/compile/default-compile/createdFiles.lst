@@ -1,0 +1,17 @@
+util\SplitUtil.class
+util\ConvertUtil.class
+util\ContoursUtil.class
+util\SeparationUtil.class
+util\SortUtil.class
+entity\Constants.class
+util\LayoutAnalysisUtil.class
+entity\PointEntity.class
+entity\PointLocationEntity.class
+entity\PointsCoreEntity.class
+entity\SeparationPointEntity.class
+entity\BinaryProjectionEntity.class
+util\SortUtil$1.class
+entity\BinaryPointsEntity.class
+util\SortUtil$2.class
+entity\PointResultEntity.class
+util\BinaryUtil.class

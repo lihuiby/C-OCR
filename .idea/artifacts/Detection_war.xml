@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Detection:war">
+    <output-path>$PROJECT_DIR$/Detection/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Detection</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Detection-1.0.0.war">
+      <element id="artifact" artifact-name="Detection:war exploded" />
+    </root>
+  </artifact>
+</component>

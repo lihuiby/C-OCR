@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd9f4fa7-dc1b-43fa-aa3c-5ccaed00d88a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/entity/BinaryPointsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/entity/BinaryPointsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detection/Detection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Detection/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detection/test/java/separation/SeparationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Detection/test/java/separation/SeparationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostProcessing/PostProcessing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostProcessing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PostProcessing/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostProcessing/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/PostProcessing/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostProcessing/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/PostProcessing/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/Recognition.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/main/java/Feature/FeatureVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/main/java/com/icez/feature/FeatureVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/main/java/Feature/HOGFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/main/java/com/icez/feature/HOGFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/main/java/Feature/HSVFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/main/java/com/icez/feature/HSVFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/main/java/Feature/ImageFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/main/java/com/icez/feature/ImageFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/main/java/Feature/ImageFeatureExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/main/java/com/icez/feature/ImageFeatureExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/main/java/Feature/ImageFeatureInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/main/java/com/icez/feature/ImageFeatureInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/main/java/Feature/LBPFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/main/java/com/icez/feature/LBPFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/main/java/Feature/RGBFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/main/java/com/icez/feature/RGBFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/main/resources/META-INF/starter.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/main/resources/META-INF/starter.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/CompareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/CompareTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/FeaturTest/HOGFeatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/HOGFeatureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/FeaturTest/HSVFeatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/HSVFeatureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/FeaturTest/ImageFeatureExtractorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/ImageFeatureExtractorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/FeaturTest/LBPFeatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/LBPFeatureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/FeaturTest/RGBFeatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/RGBFeatureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/FeatureCompareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/java/FeatureCompareTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/0/38-26-cut-codeRow2-26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/0/38-26-cut-codeRow2-26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/0/38-32-cut-codeRow2-32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/0/38-32-cut-codeRow2-32.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/0/38-33-cut-codeRow2-33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/0/38-33-cut-codeRow2-33.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/0/39-32-cut-codeRow2-32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/0/39-32-cut-codeRow2-32.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/0/39-8-cut-codeRow2-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/0/39-8-cut-codeRow2-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/0/43-16-cut-codeRow2-16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/0/43-16-cut-codeRow2-16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/0/43-19-cut-codeRow2-19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/0/43-19-cut-codeRow2-19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/0/43-20-cut-codeRow2-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/0/43-20-cut-codeRow2-20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/0/43-32-cut-codeRow2-32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/0/43-32-cut-codeRow2-32.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/0/43-33-cut-codeRow2-33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/0/43-33-cut-codeRow2-33.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/1/1-22-cut-codeRow2-22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/1/1-22-cut-codeRow2-22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/1/1-3-cut-codeRow2-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/1/1-3-cut-codeRow2-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/1/1-35-cut-codeRow2-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/1/1-35-cut-codeRow2-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/1/1-38-cut-codeRow2-38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/1/1-38-cut-codeRow2-38.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/1/2-17-cut-codeRow2-17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/1/2-17-cut-codeRow2-17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/1/2-22-cut-codeRow2-22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/1/2-22-cut-codeRow2-22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/1/2-24-cut-codeRow2-24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/1/2-24-cut-codeRow2-24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/1/2-25-cut-codeRow2-25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/1/2-25-cut-codeRow2-25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/1/2-29-cut-codeRow2-29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/1/2-29-cut-codeRow2-29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/1/2-3-cut-codeRow2-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/1/2-3-cut-codeRow2-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/1/2-35-cut-codeRow2-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/1/2-35-cut-codeRow2-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/1/2-38-cut-codeRow2-38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/1/2-38-cut-codeRow2-38.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/2/1-19-cut-codeRow2-19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/2/1-19-cut-codeRow2-19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/2/2-20-cut-codeRow2-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/2/2-20-cut-codeRow2-20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/2/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/2/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/2/4-17-cut-codeRow2-17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/2/4-17-cut-codeRow2-17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/2/4-35-cut-codeRow2-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/2/4-35-cut-codeRow2-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/2/5-17-cut-codeRow2-17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/2/5-17-cut-codeRow2-17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/2/6-10-cut-codeRow2-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/2/6-10-cut-codeRow2-10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/2/6-35-cut-codeRow2-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/2/6-35-cut-codeRow2-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/2/8-34-cut-codeRow2-34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/2/8-34-cut-codeRow2-34.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/2/9-20-cut-codeRow2-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/2/9-20-cut-codeRow2-20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/3/10-17-cut-codeRow2-17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/3/10-17-cut-codeRow2-17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/3/11-44-cut-codeRow2-44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/3/11-44-cut-codeRow2-44.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/3/13-44-cut-codeRow2-44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/3/13-44-cut-codeRow2-44.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/3/13-5-cut-codeRow2-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/3/13-5-cut-codeRow2-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/3/14-15-cut-codeRow2-15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/3/14-15-cut-codeRow2-15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/3/14-44-cut-codeRow2-44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/3/14-44-cut-codeRow2-44.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/3/17-8-cut-codeRow2-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/3/17-8-cut-codeRow2-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/3/18-3-cut-codeRow2-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/3/18-3-cut-codeRow2-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/3/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/3/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/3/9-6-cut-codeRow2-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/3/9-6-cut-codeRow2-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/4/30-17-cut-codeRow2-17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/4/30-17-cut-codeRow2-17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/4/30-43-cut-codeRow2-43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/4/30-43-cut-codeRow2-43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/4/30-9-cut-codeRow2-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/4/30-9-cut-codeRow2-9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/4/31-10-cut-codeRow2-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/4/31-10-cut-codeRow2-10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/4/31-4-cut-codeRow2-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/4/31-4-cut-codeRow2-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/4/33-43-cut-codeRow2-43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/4/33-43-cut-codeRow2-43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/4/34-2-cut-codeRow2-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/4/34-2-cut-codeRow2-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/4/34-43-cut-codeRow2-43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/4/34-43-cut-codeRow2-43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/4/38-43-cut-codeRow2-43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/4/38-43-cut-codeRow2-43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/4/39-7-cut-codeRow2-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/4/39-7-cut-codeRow2-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/5/43-36-cut-codeRow2-36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/5/43-36-cut-codeRow2-36.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/5/48-35-cut-codeRow2-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/5/48-35-cut-codeRow2-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/5/50-35-cut-codeRow2-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/5/50-35-cut-codeRow2-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/5/51-5-cut-codeRow2-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/5/51-5-cut-codeRow2-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/5/51-6-cut-codeRow2-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/5/51-6-cut-codeRow2-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/5/54-35-cut-codeRow2-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/5/54-35-cut-codeRow2-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/5/55-8-cut-codeRow2-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/5/55-8-cut-codeRow2-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/5/59-35-cut-codeRow2-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/5/59-35-cut-codeRow2-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/5/60-35-cut-codeRow2-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/5/60-35-cut-codeRow2-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/5/61-35-cut-codeRow2-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/5/61-35-cut-codeRow2-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/6/60-37-cut-codeRow2-37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/6/60-37-cut-codeRow2-37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/6/61-19-cut-codeRow2-19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/6/61-19-cut-codeRow2-19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/6/61-20-cut-codeRow2-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/6/61-20-cut-codeRow2-20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/6/61-6-cut-codeRow2-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/6/61-6-cut-codeRow2-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/6/63-37-cut-codeRow2-37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/6/63-37-cut-codeRow2-37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/6/65-37-cut-codeRow2-37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/6/65-37-cut-codeRow2-37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/6/65-5-cut-codeRow2-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/6/65-5-cut-codeRow2-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/6/66-37-cut-codeRow2-37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/6/66-37-cut-codeRow2-37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/6/67-5-cut-codeRow2-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/6/67-5-cut-codeRow2-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/6/68-6-cut-codeRow2-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/6/68-6-cut-codeRow2-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/7/67-28-cut-codeRow2-28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/7/67-28-cut-codeRow2-28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/7/68-20-cut-codeRow2-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/7/68-20-cut-codeRow2-20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/7/68-28-cut-codeRow2-28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/7/68-28-cut-codeRow2-28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/7/68-35-cut-codeRow2-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/7/68-35-cut-codeRow2-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/7/68-8-cut-codeRow2-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/7/68-8-cut-codeRow2-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/7/71-28-cut-codeRow2-28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/7/71-28-cut-codeRow2-28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/7/71-35-cut-codeRow2-35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/7/71-35-cut-codeRow2-35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/7/73-2-cut-codeRow2-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/7/73-2-cut-codeRow2-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/7/73-28-cut-codeRow2-28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/7/73-28-cut-codeRow2-28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/7/73-4-cut-codeRow2-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/7/73-4-cut-codeRow2-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/8/72-20-cut-codeRow2-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/8/72-20-cut-codeRow2-20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/8/72-23-cut-codeRow2-23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/8/72-23-cut-codeRow2-23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/8/72-27-cut-codeRow2-27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/8/72-27-cut-codeRow2-27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/8/72-30-cut-codeRow2-30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/8/72-30-cut-codeRow2-30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/8/73-15-cut-codeRow2-15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/8/73-15-cut-codeRow2-15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/8/73-27-cut-codeRow2-27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/8/73-27-cut-codeRow2-27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/8/73-30-cut-codeRow2-30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/8/73-30-cut-codeRow2-30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/8/77-30-cut-codeRow2-30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/8/77-30-cut-codeRow2-30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/8/78-23-cut-codeRow2-23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/8/78-23-cut-codeRow2-23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/9/77-14-cut-codeRow2-14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/9/77-14-cut-codeRow2-14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/9/81-39-cut-codeRow2-39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/9/81-39-cut-codeRow2-39.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/9/82-14-cut-codeRow2-14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/9/82-14-cut-codeRow2-14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/9/82-39-cut-codeRow2-39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/9/82-39-cut-codeRow2-39.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/9/82-8-cut-codeRow2-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/9/82-8-cut-codeRow2-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/9/83-8-cut-codeRow2-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/9/83-8-cut-codeRow2-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/9/87-14-cut-codeRow2-14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/9/87-14-cut-codeRow2-14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/9/87-39-cut-codeRow2-39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/9/87-39-cut-codeRow2-39.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/9/93-14-cut-codeRow2-14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/9/93-14-cut-codeRow2-14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/0-uz0acn114v928z8w15B3D_21de75e6-e9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/0-uz0acn114v928z8w15B3D_21de75e6-e9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/0-uz0acn114v97hjnls0CA2_aec71be7-22.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/0-uz0acn114v97hjnls0CA2_aec71be7-22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/0-uz0acn114v97is0tyDC6C_43c59d6d-92.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/0-uz0acn114v97is0tyDC6C_43c59d6d-92.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114v8ygcwpfAB2F_6e62b21-25-c6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114v8ygcwpfAB2F_6e62b21-25-c6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114v8ygcwpfAB2F_6e62b225-c1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114v8ygcwpfAB2F_6e62b225-c1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114v8ygcwpfAB2F_6e62b225-c10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114v8ygcwpfAB2F_6e62b225-c10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114v8ygcwpfAB2F_6e62b225-c16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114v8ygcwpfAB2F_6e62b225-c16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114v8ygcwpfAB2F_6e62b225-c9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114v8ygcwpfAB2F_6e62b225-c9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114v928z8w15B3D_21de75e6-e10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114v928z8w15B3D_21de75e6-e10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114v928z8w15B3D_21de75e6-e11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114v928z8w15B3D_21de75e6-e11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114v928z8w15B3D_21de75e6-e6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114v928z8w15B3D_21de75e6-e6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114v97hjnls0CA2_aec71be7-21.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114v97hjnls0CA2_aec71be7-21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114v97hjnls0CA2_aec71be7-26.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114v97hjnls0CA2_aec71be7-26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114v97is0tyDC6C_43c59d6d-96.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114v97is0tyDC6C_43c59d6d-96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114vl4ccjvu5D4E_69f09e4b-61.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114vl4ccjvu5D4E_69f09e4b-61.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114vl4ccjvu5D4E_69f09e4b-612.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114vl4ccjvu5D4E_69f09e4b-612.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1-uz0acn114vl4ccjvu5D4E_69f09e4b-617.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1-uz0acn114vl4ccjvu5D4E_69f09e4b-617.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/2-uz0acn114v8ygcwpfAB2F_6e62b2225-c4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/2-uz0acn114v8ygcwpfAB2F_6e62b2225-c4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/2-uz0acn114v8ygcwpfAB2F_6e62b225-c11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/2-uz0acn114v8ygcwpfAB2F_6e62b225-c11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/2-uz0acn114v8ygcwpfAB2F_6e62b225-c12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/2-uz0acn114v8ygcwpfAB2F_6e62b225-c12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/2-uz0acn114v8ygcwpfAB2F_6e62b225-c15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/2-uz0acn114v8ygcwpfAB2F_6e62b225-c15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/2-uz0acn114v8ygcwpfAB2F_6e62b225-c17.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/2-uz0acn114v8ygcwpfAB2F_6e62b225-c17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/2-uz0acn114v8ygcwpfAB2F_6e62b225-c3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/2-uz0acn114v8ygcwpfAB2F_6e62b225-c3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/2-uz0acn114v928z8w15B3D_21de75e6-e12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/2-uz0acn114v928z8w15B3D_21de75e6-e12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/2-uz0acn114v97hjnls0CA2_aec71be7-217.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/2-uz0acn114v97hjnls0CA2_aec71be7-217.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/2-uz0acn114v97hjnls0CA2_aec71be7-23.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/2-uz0acn114v97hjnls0CA2_aec71be7-23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/2-uz0acn114v97is0tyDC6C_43c59d6d-916.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/2-uz0acn114v97is0tyDC6C_43c59d6d-916.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/2-uz0acn114v97is0tyDC6C_43c59d6d-94.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/2-uz0acn114v97is0tyDC6C_43c59d6d-94.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/3-uz0acn114v8ygcwpfAB2F_6e62b225-c0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/3-uz0acn114v8ygcwpfAB2F_6e62b225-c0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/3-uz0acn114v8ygcwpfAB2F_6e62b225-c14.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/3-uz0acn114v8ygcwpfAB2F_6e62b225-c14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/3-uz0acn114v97hjnls0CA2_aec71be7-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/3-uz0acn114v97hjnls0CA2_aec71be7-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/3-uz0acn114v97is0tyDC6C_43c59d6d-90.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/3-uz0acn114v97is0tyDC6C_43c59d6d-90.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/3-uz0acn114vl4ccjvu5D4E_69f09e4b-69.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/3-uz0acn114vl4ccjvu5D4E_69f09e4b-69.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/4-uz0acn114v928z8w15B3D_21de75e6-e15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/4-uz0acn114v928z8w15B3D_21de75e6-e15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/4-uz0acn114vl4ccjvu5D4E_69f09e4b-613.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/4-uz0acn114vl4ccjvu5D4E_69f09e4b-613.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/4-uz0acn114vl4ccjvu5D4E_69f09e4b-614.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/4-uz0acn114vl4ccjvu5D4E_69f09e4b-614.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/5-uz0acn114v8ygcwpfAB2F_6e62b225-c5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/5-uz0acn114v8ygcwpfAB2F_6e62b225-c5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/5-uz0acn114v928z8w15B3D_21de75e6-e5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/5-uz0acn114v928z8w15B3D_21de75e6-e5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/5-uz0acn114v97hjnls0CA2_aec71be7-213.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/5-uz0acn114v97hjnls0CA2_aec71be7-213.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/5-uz0acn114v97hjnls0CA2_aec71be7-28.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/5-uz0acn114v97hjnls0CA2_aec71be7-28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/6-uz0acn114v97hjnls0CA2_aec71be7-214.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/6-uz0acn114v97hjnls0CA2_aec71be7-214.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/6-uz0acn114v97hjnls0CA2_aec71be7-215.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/6-uz0acn114v97hjnls0CA2_aec71be7-215.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/6-uz0acn114v97hjnls0CA2_aec71be7-216.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/6-uz0acn114v97hjnls0CA2_aec71be7-216.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/7-uz0acn114v8ygcwpfAB2F_6e62b225-c13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/7-uz0acn114v8ygcwpfAB2F_6e62b225-c13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/7-uz0acn114v900jl28F7C0_76858374-08.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/7-uz0acn114v900jl28F7C0_76858374-08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/7-uz0acn114v928z8w15B3D_21de75e6-e17.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/7-uz0acn114v928z8w15B3D_21de75e6-e17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/7-uz0acn114v928z8w15B3D_21de75e6-e8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/7-uz0acn114v928z8w15B3D_21de75e6-e8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/7-uz0acn114v97hjnls0CA2_aec71be7-29.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/7-uz0acn114v97hjnls0CA2_aec71be7-29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/7-uz0acn114vl4ccjvu5D4E_69f09e4b-615.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/7-uz0acn114vl4ccjvu5D4E_69f09e4b-615.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/8-uz0acn114v8ygcwpfAB2F_6e62b225-c8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/8-uz0acn114v8ygcwpfAB2F_6e62b225-c8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/8-uz0acn114v928z8w15B3D_21de75e6-e13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/8-uz0acn114v928z8w15B3D_21de75e6-e13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/8-uz0acn114v97hjnls0CA2_aec71be7-211.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/8-uz0acn114v97hjnls0CA2_aec71be7-211.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/9-uz0acn114v8ygcwpfAB2F_6e62b225-c7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/9-uz0acn114v8ygcwpfAB2F_6e62b225-c7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/9-uz0acn114v928z8w15B3D_21de75e6-e7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/9-uz0acn114v928z8w15B3D_21de75e6-e7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/9-uz0acn114v97hjnls0CA2_aec71be7-27.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/9-uz0acn114v97hjnls0CA2_aec71be7-27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition/test/java/resources/test/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition/test/resources/test/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RefuseRecognition/RefuseRecognition.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RefuseRecognition/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RefuseRecognition/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RefuseRecognition/test/java/RejectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/RefuseRecognition/test/java/RejectionTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/RefuseRecognition/target/" />
+    <ignored path="$PROJECT_DIR$/Detection/target/" />
+    <ignored path="$PROJECT_DIR$/Common/target/" />
+    <ignored path="$PROJECT_DIR$/PostProcessing/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/Recognition/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Detection/test/java/separation/SeparationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="50" column="31" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Detection/test/java/verificationcode/TestOCR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Detection/main/java/verificationcode/VerficationCodeOCR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2133">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Detection/main/java/verificationcode/DebugUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="87" column="33" lean-forward="true" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+              <folding>
+                <element signature="e#1493#1494#0" expanded="true" />
+                <element signature="e#1554#1555#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Detection/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/entity/PointEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-330">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/ImageFeatureExtractorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-330">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RefuseRecognition/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-151" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RefuseRecognition/test/java/RejectionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="40" column="50" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RefuseRecognition/main/java/code/RejectBiz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4101">
+              <caret line="474" column="24" lean-forward="true" selection-start-line="474" selection-start-column="24" selection-end-line="474" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RefuseRecognition/main/java/entity/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+              <folding>
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Detection/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PostProcessing/src/test/java/TestSimilar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Recognition/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1101">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/CompareTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>org.opencv.core.Mat</find>
+      <find>logger</find>
+      <find>com.ctrip.basebiz</find>
+      <find>war</find>
+      <find>lineCutPoints</find>
+      <find>test01</find>
+      <find>getFileNames</find>
+      <find>testSeparation</find>
+      <find>outPath</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>log</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/entity/BinaryPointsEntity.java" />
+        <option value="$PROJECT_DIR$/Recognition/main/java/compare/XorCompare.java" />
+        <option value="$PROJECT_DIR$/Recognition/main/java/Feature/FeatureVector.java" />
+        <option value="$PROJECT_DIR$/Recognition/main/resources/META-INF/starter.properties" />
+        <option value="$PROJECT_DIR$/PostProcessing/pom.xml" />
+        <option value="$PROJECT_DIR$/Recognition/test/java/FeaturTest/ImageFeatureExtractorTest.java" />
+        <option value="$PROJECT_DIR$/Recognition/test/java/FeaturTest/HOGFeatureTest.java" />
+        <option value="$PROJECT_DIR$/Recognition/test/java/FeaturTest/HSVFeatureTest.java" />
+        <option value="$PROJECT_DIR$/Recognition/test/java/FeaturTest/LBPFeatureTest.java" />
+        <option value="$PROJECT_DIR$/Recognition/test/java/FeaturTest/RGBFeatureTest.java" />
+        <option value="$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/CompareTest.java" />
+        <option value="$PROJECT_DIR$/Common/pom.xml" />
+        <option value="$PROJECT_DIR$/Detection/pom.xml" />
+        <option value="$PROJECT_DIR$/RefuseRecognition/pom.xml" />
+        <option value="$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/ImageFeatureExtractorTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Recognition/pom.xml" />
+        <option value="$PROJECT_DIR$/Recognition/test/java/FeatureCompareTest.java" />
+        <option value="$PROJECT_DIR$/Detection/test/java/separation/SeparationTest.java" />
+        <option value="$PROJECT_DIR$/RefuseRecognition/test/java/RejectionTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java\apache-maven-3.6.1\repository" />
+        <option name="mavenHome" value="D:/Java/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Java\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/C-OCR.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/kotlinc.xml" />
+        <option value="$PROJECT_DIR$/RefuseRecognition/RefuseRecognition.iml" />
+        <option value="$PROJECT_DIR$/Detection/Detection.iml" />
+        <option value="$PROJECT_DIR$/Common/Common.iml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/Common_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/Common_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/Detection_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/Detection_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/RefuseRecognition_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/RefuseRecognition_war_exploded.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-405" />
+    <option name="y" value="115" />
+    <option name="width" value="2120" />
+    <option name="height" value="1225" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Detection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Detection" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Detection" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Detection" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Detection" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="separation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Detection" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="verificationcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Detection" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Detection" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="detection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="PostProcessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="PostProcessing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="PostProcessing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="PostProcessing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="Recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="featurTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="RefuseRecognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="RefuseRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="RefuseRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="RefuseRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="RefuseRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="RefuseRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C-OCR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-OCR" type="462c0819:PsiDirectoryNode" />
+              <item name="RefuseRecognition" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Recognition/test/java/com/icez" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Recognition" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\github\C-OCR\Recognition\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.icez" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\github\C-OCR\Recognition" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RejectionTest.testReject">
+    <configuration name="TestSimilar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestSimilar" />
+      <module name="PostProcessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompareTest.DigestCompareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recognition" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.icez.featurTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.icez.featurTest" />
+      <option name="MAIN_CLASS_NAME" value="com.icez.featurTest.CompareTest" />
+      <option name="METHOD_NAME" value="DigestCompareTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeatureCompareTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recognition" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FeatureCompareTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RejectionTest.testReject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RefuseRecognition" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RejectionTest" />
+      <option name="METHOD_NAME" value="testReject" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeparationTest.testSeparation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Detection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="separation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="separation" />
+      <option name="MAIN_CLASS_NAME" value="separation.SeparationTest" />
+      <option name="METHOD_NAME" value="testSeparation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.FeatureCompareTest.test01" />
+      <item itemvalue="Maven.clean" />
+      <item itemvalue="JUnit.SeparationTest.testSeparation" />
+      <item itemvalue="Application.TestSimilar" />
+      <item itemvalue="JUnit.CompareTest.DigestCompareTest" />
+      <item itemvalue="JUnit.RejectionTest.testReject" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RejectionTest.testReject" />
+        <item itemvalue="JUnit.CompareTest.DigestCompareTest" />
+        <item itemvalue="Application.TestSimilar" />
+        <item itemvalue="JUnit.FeatureCompareTest.test01" />
+        <item itemvalue="JUnit.SeparationTest.testSeparation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd9f4fa7-dc1b-43fa-aa3c-5ccaed00d88a" name="Default Changelist" comment="" />
+      <created>1590029921269</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590029921269</updated>
+      <workItem from="1590029923415" duration="1591000" />
+      <workItem from="1590031534546" duration="5399000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SeparationTest_testSeparation - 2020.05.21 at 11h 39m 46s.xml">
+      <configuration name="SeparationTest.testSeparation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestOCR_testOCR - 2020.05.21 at 13h 47m 34s.xml">
+      <configuration name="TestOCR.testOCR" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeparationTest_testSeparation - 2020.05.21 at 13h 48m 32s.xml">
+      <configuration name="SeparationTest.testSeparation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeparationTest_testSeparation - 2020.05.21 at 13h 49m 01s.xml">
+      <configuration name="SeparationTest.testSeparation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RejectionTest_testReject - 2020.05.21 at 14h 05m 15s.xml">
+      <configuration name="RejectionTest.testReject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RejectionTest_testReject - 2020.05.21 at 14h 06m 17s.xml">
+      <configuration name="RejectionTest.testReject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RejectionTest_testReject - 2020.05.21 at 14h 26m 39s.xml">
+      <configuration name="RejectionTest.testReject" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6990000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25249502" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498503" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.58433133" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.41566867" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49600798" weight="0.39381444" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.499501" weight="0.3298969" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.20758483" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/Recognition/main/java/com/icez/feature/FeatureVector.java</url>
+          <line>20</line>
+          <properties field="STRUCT_DESC" class="com.icez.feature.FeatureVector" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Detection/test/java/separation/SeparationTest.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RefuseRecognition/test/java/RejectionTest.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/entity/PointsCoreEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/entity/SeparationPointEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/util/ContoursUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/util/BinaryUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/util/LayoutAnalysisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detection/main/java/separation/SeparationBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/java/compare/DigestCompare.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/java/compare/HanmiCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/java/compare/XorCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/java/util/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/resources/META-INF/starter.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostProcessing/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/java/com/icez/feature/HOGFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/java/com/icez/feature/HSVFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/java/com/icez/feature/ImageFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/java/com/icez/feature/ImageFeatureExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/java/com/icez/feature/ImageFeatureInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/java/com/icez/feature/LBPFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/java/com/icez/feature/RGBFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/LBPFeatureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/RGBFeatureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RefuseRecognition/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/HSVFeatureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/HOGFeatureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_221/src.zip!/javax/annotation/Generated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_221/src.zip!/java/lang/SuppressWarnings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/main/java/com/icez/feature/FeatureVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#453#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detection/test/resources/detection/28.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://D:/Java/apache-maven-3.6.1/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/apache-maven-3.6.1/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#1464#1658#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/test/java/FeatureCompareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostProcessing/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1735">
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostProcessing/src/test/java/TestSimilar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1101">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/CompareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognition/test/java/com/icez/featurTest/ImageFeatureExtractorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RefuseRecognition/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RefuseRecognition/test/java/RejectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="40" column="50" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RefuseRecognition/main/java/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RefuseRecognition/main/java/code/RejectBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4101">
+          <caret line="474" column="24" lean-forward="true" selection-start-line="474" selection-start-column="24" selection-end-line="474" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/entity/PointEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detection/test/java/verificationcode/TestOCR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detection/main/java/verificationcode/VerficationCodeOCR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2133">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detection/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detection/test/java/separation/SeparationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detection/main/java/verificationcode/DebugUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="87" column="33" lean-forward="true" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+          <folding>
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detection/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|Recognition</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

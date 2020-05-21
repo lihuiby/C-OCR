@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.py.common:common-utils:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/Java/apache-maven-3.6.1/repository/com/py/common/common-utils/1.0.0-SNAPSHOT/common-utils-1.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Java/apache-maven-3.6.1/repository/com/py/common/common-utils/1.0.0-SNAPSHOT/common-utils-1.0.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Java/apache-maven-3.6.1/repository/com/py/common/common-utils/1.0.0-SNAPSHOT/common-utils-1.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

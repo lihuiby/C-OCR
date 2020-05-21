@@ -1,12 +1,11 @@
-import Feature.FeatureVector;
-import Feature.ImageFeatureExtractor;
+import com.icez.feature.ImageFeatureExtractor;
+import com.icez.feature.FeatureVector;
 import compare.XorCompare;
 import entity.CompareEntity;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.opencv.core.Mat;
 import org.opencv.imgcodecs.Imgcodecs;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import util.FileUtil;
 import logistic.LogisticModel;
 import util.JsonUtil;
@@ -20,14 +19,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
-
+@Slf4j
 public class FeatureCompareTest {
-    private static final Logger logger = LoggerFactory.getLogger(FeatureCompareTest.class);
 static{
     //使用三方打包好的自适应系统load opencv动态链接库的包
     nu.pattern.OpenCV.loadShared();
 }
+    @Test
+    public void test01() {
+        System.out.println("test01");
+    }
 
     @Test
     public void doOcrHog(){
@@ -156,7 +157,7 @@ static{
                     list9.add(map9);
                 }
             } catch (Exception e) {
-                logger.error(e.getMessage());
+                log.error(e.getMessage());
             }
         }
 
@@ -381,7 +382,7 @@ static{
             FeatureVector featureVector = featureExtractor.getFeatureVector(image1);
             return featureVector;
         } catch (IOException e) {
-            logger.error(e.getMessage());
+            log.error(e.getMessage());
         }
         return  null;
 
